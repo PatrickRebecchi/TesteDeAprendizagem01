@@ -1,7 +1,7 @@
 public class Paciente extends Pessoa{
 
     String matricula;
-    String planoDeSuade;
+    String planoDeSaude;
 
     public String getMatricula() {
         return matricula;
@@ -12,11 +12,11 @@ public class Paciente extends Pessoa{
     }
 
     public String getPlanoDeSuade() {
-        return planoDeSuade;
+        return planoDeSaude;
     }
 
     public void setPlanoDeSuade(String planoDeSuade) {
-        this.planoDeSuade = planoDeSuade;
+        this.planoDeSaude = planoDeSuade;
     }
     public void imprimirInfo(){
         System.out.println("Nome: " + nome);
